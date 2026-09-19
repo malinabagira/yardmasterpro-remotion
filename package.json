@@ -1,0 +1,22 @@
+{
+  "name": "yardmasterpro-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare:media": "mkdir -p public && cp yardmasterpro-7-raised-bed-mistakes-short.mp4 public/source.mp4",
+    "start": "npm run prepare:media && remotion studio src/index.ts",
+    "render": "npm run prepare:media && mkdir -p out && remotion render src/index.ts YardMasterProRaisedBedShort out/yardmasterpro-raised-bed-short-v2.mp4 --codec=h264",
+    "still": "npm run prepare:media && mkdir -p out && remotion still src/index.ts YardMasterProRaisedBedShort out/preview.png --frame=45"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
+  }
+}

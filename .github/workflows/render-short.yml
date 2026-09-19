@@ -1,0 +1,38 @@
+name: Render YardMasterPro Short
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - chatgpt/raised-bed-short-v2
+    paths:
+      - 'src/**'
+      - 'package.json'
+      - 'yardmasterpro-7-raised-bed-mistakes-short.mp4'
+      - '.github/workflows/render-short.yml'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Render video
+        run: npm run render
+
+      - name: Upload rendered MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: yardmasterpro-raised-bed-short-v2
+          path: out/yardmasterpro-raised-bed-short-v2.mp4
+          if-no-files-found: error
