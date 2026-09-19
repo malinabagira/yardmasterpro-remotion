@@ -85,7 +85,7 @@ const WoodChipsReplacement: React.FC = () => (
       </div>
       <div style={{flex:1,borderRadius:42,background:'linear-gradient(180deg,#324a33,#1d2d20)',padding:32,border:'3px solid rgba(130,230,150,.55)',display:'flex',flexDirection:'column',justifyContent:'space-between'}}>
         <div style={{fontFamily:FONT,fontSize:42,fontWeight:900,color:'#9be5ad',textAlign:'center'}}>✓ ON PATHS</div>
-        <div style={{height:'62%',borderRadius:28,background:'linear-gradient(90deg,#49623d 0 30%,#8a6846 30% 70%,#49623d 70%),boxShadow:'inset 0 0 65px rgba(0,0,0,.25)'}}/>
+        <div style={{height:'62%',borderRadius:28,background:'linear-gradient(90deg,#49623d 0 30%,#8a6846 30% 70%,#49623d 70%)',boxShadow:'inset 0 0 65px rgba(0,0,0,.25)'}}/>
         <div style={{fontFamily:FONT,fontSize:30,fontWeight:700,color:'#fff',textAlign:'center'}}>Use on pathways or as surface material</div>
       </div>
     </div>
