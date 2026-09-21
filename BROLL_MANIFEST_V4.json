@@ -1,0 +1,167 @@
+{
+  "version": "4.0",
+  "project": "YardMasterPro - 7 Raised Bed Mistakes Short",
+  "target": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 60
+  },
+  "policy": "live-footage-first",
+  "assets": [
+    {
+      "id": "01",
+      "file": "public/broll/01_hook_raised_bed.mp4",
+      "finalIn": "00:00",
+      "finalOut": "00:03",
+      "source": "https://www.pexels.com/video/people-gardening-and-digging-the-soil-9477619/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:03",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "02",
+      "file": "public/broll/02_old_sleepers.mp4",
+      "finalIn": "00:03",
+      "finalOut": "00:09",
+      "source": "https://www.pexels.com/video/close-up-of-old-wooden-sleepers-on-a-cargo-train-11662302/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:05",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "03",
+      "file": "public/broll/03_bed_width_reach.mp4",
+      "finalIn": "00:09",
+      "finalOut": "00:16",
+      "source": "https://www.pexels.com/video/people-gardening-and-digging-the-soil-9477619/",
+      "sourceIn": "00:04",
+      "sourceOut": "00:10",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "04",
+      "file": "public/broll/04_soil_hands.mp4",
+      "finalIn": "00:16",
+      "finalOut": "00:22",
+      "source": "https://www.pexels.com/video/a-person-working-in-the-garden-7714876/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:04",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "05a",
+      "file": "public/broll/05a_dense_soil.mp4",
+      "finalIn": "00:22",
+      "finalOut": "00:28",
+      "source": "https://www.pexels.com/video/a-person-shoveling-a-pile-of-soil-7714808/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:03",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "05b",
+      "file": "public/broll/05b_loose_soil.mp4",
+      "finalIn": "00:22",
+      "finalOut": "00:28",
+      "source": "https://www.pexels.com/video/person-holding-soil-8544139/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:03",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "06",
+      "file": "public/broll/06_wood_chips_surface.mp4",
+      "finalIn": "00:28",
+      "finalOut": "00:34",
+      "source": "https://www.pexels.com/video/gardener-spreading-mulch-in-backyard-37019470/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:04",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "07a",
+      "file": "public/broll/07a_compost.mp4",
+      "finalIn": "00:34",
+      "finalOut": "00:41",
+      "source": "https://www.pexels.com/video/gardener-handling-rich-compost-in-wheelbarrow-31145888/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:03",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "07b",
+      "file": "public/broll/07b_soil_sample.mp4",
+      "finalIn": "00:34",
+      "finalOut": "00:41",
+      "source": "https://www.pexels.com/video/close-up-of-hands-handling-soil-sample-34613303/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:04",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "08a",
+      "file": "public/broll/08a_sprinkler.mp4",
+      "finalIn": "00:41",
+      "finalOut": "00:47",
+      "source": "https://www.pexels.com/video/video-footage-of-a-sprinkler-watering-the-vegetable-plants-5210723/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:02",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "08b",
+      "file": "public/broll/08b_check_soil.mp4",
+      "finalIn": "00:41",
+      "finalOut": "00:47",
+      "source": "https://www.pexels.com/video/hands-covered-with-soil-7655269/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:04",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "09a",
+      "file": "public/broll/09a_winter_garden.mp4",
+      "finalIn": "00:47",
+      "finalOut": "00:54",
+      "source": "https://www.pexels.com/video/gardener-tending-to-plants-in-winter-garden-31147381/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:03",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    },
+    {
+      "id": "09b",
+      "file": "public/broll/09b_falling_leaves.mp4",
+      "finalIn": "00:47",
+      "finalOut": "00:54",
+      "source": "https://pixabay.com/videos/leaves-fall-autumn-leaves-12461/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:02",
+      "sourceCutStatus": "provisional",
+      "license": "Pixabay Content License"
+    },
+    {
+      "id": "10",
+      "file": "public/broll/10_healthy_garden_cta.mp4",
+      "finalIn": "00:54",
+      "finalOut": "01:00",
+      "source": "https://www.pexels.com/video/close-up-shot-of-garden-vegetables-5012312/",
+      "sourceIn": "00:00",
+      "sourceOut": "00:05",
+      "sourceCutStatus": "provisional",
+      "license": "Pexels License"
+    }
+  ]
+}
